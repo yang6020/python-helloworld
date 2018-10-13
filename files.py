@@ -14,9 +14,12 @@ print(text)
 # write
 animals.write('frog\n')
 animals.write('elephant\n')
+
+# reread and print the file
+# without seek and read again below, we will need to run it twice to show the updated file
 animals.seek(0)
-text2 = animals.read()
-print(text2)
+text = animals.read()
+print(text)
 
 # close
 animals.close()
