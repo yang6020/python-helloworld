@@ -12,7 +12,7 @@ text = animals.read()
 print(text)
 
 # write
-animals.write('dog\n')
+animals.write('frog\n')
 animals.write('elephant\n')
 animals.seek(0)
 text2 = animals.read()

@@ -1,15 +1,21 @@
 ## helloworld
 
-### Run without pipenv:
+### Run helloworld without pipenv:
 
 - pip install requests
 
 - python helloworld.py
 
-### Run with pipenv:
+### Run helloworld with pipenv:
 
 - pipenv run python helloworld.py
 
-## Run Person Class test:
+### Run person class test:
 
 - python testPerson.py
+
+### Run file read + write on animals.txt
+
+(to print list of animals, add frog + elephant and reprint animals)
+
+- python files.py
