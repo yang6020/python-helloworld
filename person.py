@@ -11,3 +11,6 @@ class Person:
 
     def say_age(self):
         print('person age is %d' % self.age)
+
+    def birthday(self):
+        self.age += 1
